@@ -18,6 +18,12 @@ ___________________________________________
 Junit is being used to validate the tests.
 ___________________________________________
 
+Requirements:
+1. Java Version 11
+2. Maven Version 3.*
+3. Git
+___________________________________________
+
 Steps to Install:
 1. git clone in Root directory of the system.
 2. cd selenium-cucumber
