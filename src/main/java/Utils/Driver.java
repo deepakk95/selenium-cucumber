@@ -21,15 +21,15 @@ public class Driver {
         if(OS.equals("windows 10") && browsername.equalsIgnoreCase("chrome"))
         {
             System.setProperty("webdriver.chrome.driver", "/Users/" + System.getProperty("user.name") + "/selenium-cucumber/windowsDriver/chromedriver.exe");
-            this.driver = new ChromeDriver();
-            this.driver.manage().window().maximize();
+            driver = new ChromeDriver();
+            driver.manage().window().maximize();
         }
         else if(OS.equals("windows 10") && browsername.equalsIgnoreCase("edge"))
         {
             System.setProperty("webdriver.edge.driver","/Users/" + System.getProperty("user.name") + "/selenium-cucumber/windowsDriver/msedgedriver.exe");
-            this.driver = new EdgeDriver();
-            this.driver.manage().window().maximize();
+            driver = new EdgeDriver();
+            driver.manage().window().maximize();
         }
-       return this.driver;
+       return driver;
     }
 }
